@@ -8,24 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		28FAC667209992C300F526E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAC666209992C300F526E4 /* AppDelegate.m */; };
-		28FAC66A209992C300F526E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAC669209992C300F526E4 /* ViewController.m */; };
-		28FAC66D209992C300F526E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FAC66B209992C300F526E4 /* Main.storyboard */; };
+		28FAC66A209992C300F526E4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAC669209992C300F526E4 /* MainViewController.m */; };
 		28FAC66F209992C400F526E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FAC66E209992C400F526E4 /* Assets.xcassets */; };
 		28FAC672209992C400F526E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FAC670209992C400F526E4 /* LaunchScreen.storyboard */; };
 		28FAC675209992C400F526E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAC674209992C400F526E4 /* main.m */; };
+		28FAC6802099B2EE00F526E4 /* DYY_IAPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAC67F2099B2EE00F526E4 /* DYY_IAPTool.m */; };
+		28FAC68C209AF04800F526E4 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAC682209AF04800F526E4 /* SVRadialGradientLayer.m */; };
+		28FAC68D209AF04800F526E4 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAC685209AF04800F526E4 /* SVProgressAnimatedView.m */; };
+		28FAC68E209AF04800F526E4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAC688209AF04800F526E4 /* SVProgressHUD.m */; };
+		28FAC68F209AF04800F526E4 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAC689209AF04800F526E4 /* SVIndefiniteAnimatedView.m */; };
+		28FAC690209AF04800F526E4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28FAC68A209AF04800F526E4 /* SVProgressHUD.bundle */; };
+		28FAC694209B1CF800F526E4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FAC693209B1CF800F526E4 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28FAC662209992C300F526E4 /* IAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FAC665209992C300F526E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28FAC666209992C300F526E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28FAC668209992C300F526E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28FAC669209992C300F526E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28FAC66C209992C300F526E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28FAC668209992C300F526E4 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		28FAC669209992C300F526E4 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		28FAC66E209992C400F526E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28FAC671209992C400F526E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28FAC673209992C400F526E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28FAC674209992C400F526E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28FAC67E2099B2EE00F526E4 /* DYY_IAPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYY_IAPTool.h; sourceTree = "<group>"; };
+		28FAC67F2099B2EE00F526E4 /* DYY_IAPTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYY_IAPTool.m; sourceTree = "<group>"; };
+		28FAC682209AF04800F526E4 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		28FAC683209AF04800F526E4 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		28FAC684209AF04800F526E4 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		28FAC685209AF04800F526E4 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		28FAC686209AF04800F526E4 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		28FAC687209AF04800F526E4 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		28FAC688209AF04800F526E4 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		28FAC689209AF04800F526E4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		28FAC68A209AF04800F526E4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		28FAC68B209AF04800F526E4 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		28FAC693209B1CF800F526E4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		28FAC695209B1E4B00F526E4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FAC694209B1CF800F526E4 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +62,11 @@
 		28FAC659209992C300F526E4 = {
 			isa = PBXGroup;
 			children = (
+				28FAC695209B1E4B00F526E4 /* StoreKit.framework */,
+				28FAC681209AF04800F526E4 /* SVProgressHUD */,
 				28FAC664209992C300F526E4 /* IAP */,
 				28FAC663209992C300F526E4 /* Products */,
+				28FAC67B209992F800F526E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +83,41 @@
 			children = (
 				28FAC665209992C300F526E4 /* AppDelegate.h */,
 				28FAC666209992C300F526E4 /* AppDelegate.m */,
-				28FAC668209992C300F526E4 /* ViewController.h */,
-				28FAC669209992C300F526E4 /* ViewController.m */,
-				28FAC66B209992C300F526E4 /* Main.storyboard */,
+				28FAC668209992C300F526E4 /* MainViewController.h */,
+				28FAC669209992C300F526E4 /* MainViewController.m */,
+				28FAC67E2099B2EE00F526E4 /* DYY_IAPTool.h */,
+				28FAC67F2099B2EE00F526E4 /* DYY_IAPTool.m */,
 				28FAC66E209992C400F526E4 /* Assets.xcassets */,
 				28FAC670209992C400F526E4 /* LaunchScreen.storyboard */,
 				28FAC673209992C400F526E4 /* Info.plist */,
 				28FAC674209992C400F526E4 /* main.m */,
 			);
 			path = IAP;
+			sourceTree = "<group>";
+		};
+		28FAC67B209992F800F526E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FAC693209B1CF800F526E4 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28FAC681209AF04800F526E4 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				28FAC682209AF04800F526E4 /* SVRadialGradientLayer.m */,
+				28FAC683209AF04800F526E4 /* SVIndefiniteAnimatedView.h */,
+				28FAC684209AF04800F526E4 /* SVProgressHUD.h */,
+				28FAC685209AF04800F526E4 /* SVProgressAnimatedView.m */,
+				28FAC686209AF04800F526E4 /* SVProgressHUD-Prefix.pch */,
+				28FAC687209AF04800F526E4 /* SVRadialGradientLayer.h */,
+				28FAC688209AF04800F526E4 /* SVProgressHUD.m */,
+				28FAC689209AF04800F526E4 /* SVIndefiniteAnimatedView.m */,
+				28FAC68A209AF04800F526E4 /* SVProgressHUD.bundle */,
+				28FAC68B209AF04800F526E4 /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +151,11 @@
 				TargetAttributes = {
 					28FAC661209992C300F526E4 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -129,8 +183,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28FAC672209992C400F526E4 /* LaunchScreen.storyboard in Resources */,
+				28FAC690209AF04800F526E4 /* SVProgressHUD.bundle in Resources */,
 				28FAC66F209992C400F526E4 /* Assets.xcassets in Resources */,
-				28FAC66D209992C300F526E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +195,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28FAC66A209992C300F526E4 /* ViewController.m in Sources */,
+				28FAC66A209992C300F526E4 /* MainViewController.m in Sources */,
+				28FAC6802099B2EE00F526E4 /* DYY_IAPTool.m in Sources */,
 				28FAC675209992C400F526E4 /* main.m in Sources */,
+				28FAC68F209AF04800F526E4 /* SVIndefiniteAnimatedView.m in Sources */,
+				28FAC68E209AF04800F526E4 /* SVProgressHUD.m in Sources */,
 				28FAC667209992C300F526E4 /* AppDelegate.m in Sources */,
+				28FAC68C209AF04800F526E4 /* SVRadialGradientLayer.m in Sources */,
+				28FAC68D209AF04800F526E4 /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28FAC66B209992C300F526E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28FAC66C209992C300F526E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		28FAC670209992C400F526E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,13 +337,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3284H893FZ;
 				INFOPLIST_FILE = IAP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dzc.IAP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzc.iap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,13 +355,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3284H893FZ;
 				INFOPLIST_FILE = IAP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dzc.IAP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzc.iap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
